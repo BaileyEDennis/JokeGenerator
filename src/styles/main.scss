@@ -1,9 +1,47 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+$defFont: 'Grandstander', cursive;
+$spacing: 1rem;
+$headingColor: #894474;
+$btnColor: #a98da1;
+$heavier: 800;
+
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #2e1114;
   text-align: center;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+  #app {
+    background-color: rgba($color: #adadad, $alpha: 0.7);
+    border-radius: 15px;
+  }
+  h1 {
+    color: $headingColor;
+    font-family: $defFont;
+    margin: $spacing;
+  }
+  h2 {
+    color: $headingColor;
+    font-family: $defFont;
+    margin: $spacing;
+  }
+  #get-joke-btn {
+    color: $btnColor;
+    font-weight: $heavier;
+    background-color: #501b1d;
+    font-family: $defFont;
+    margin: $spacing;
+    border-radius: 15px;
+  }
+  #get-punch-btn {
+    color: $btnColor;
+    font-weight: $heavier;
+    background-color: #501b1d;
+    font-family: $defFont;
+    margin: $spacing;
+    border-radius: 15px;
+  }
 }
