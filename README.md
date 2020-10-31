@@ -1,6 +1,6 @@
 # Joke generator
 
-this project was a quick oneshot for making a simple joke generator. It was constructed in under two hours using javascript and sass along with webpack and deployed using netlify.
+this project was a quick oneshot for making a simple joke generator. It was constructed in under two hours using javascript and sass along with webpack and deployed using netlify. It is a fun and silly site, feel free to check it out!
 
 ## Screenshot
 ![img](gifs/site.png)
